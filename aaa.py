@@ -60,7 +60,7 @@ def login():
         print tutup + '\n[' + putih + '\033[36;1m+' + tutup + '\033[37;1m] LOGIN ACCOUNT FACEBOOK ' + tutup + '[' + putih + '\033[36;1m+' + tutup + '\033[37;1m]' + tutup
         usr = raw_input(tutup + '\033[37;1m[' + putih + '\033[32;1m~' + tutup + '\033[37;1m] Username :\033[32;1m ' + biru)
         pwd = raw_input(tutup + '\033[37;1m[' + putih + '\033[32;1m~' + tutup + '\033[37;1m] Password :\033[32;1m ' + biru)
-        try:
+            try:
             sex.open('https://m.facebook.com')
         except mechanize.URLError:
             exit(tutup + '\033[37;1m[' + hijau + '\033[31;1m!' + tutup + '\033[37;1m] Koneksi Error')
